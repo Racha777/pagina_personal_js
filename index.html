@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos Conito</title>
+    <link rel="stylesheet" href="./styles/css/sassprofile.css" />
+    <link rel="stylesheet" href="./styles/css/index.css" />
+    <!-- <link rel="stylesheet" href="./css/header.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./styles/css/newprofile.css" />
+    <link rel="stylesheet" href="./styles/css/styles.css" />
+    <link rel="stylesheet" href="./styles/css/contact.css" />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <nav class="header-nav">
+        <div class="header-nav__container">
+          <a href="#" class="header-nav__link-logo-container">
+            <img
+              src="./img/impfistslogo.png"
+              alt="Logo Productos Conito"
+              class="header-nav__logo"
+            />
+          </a>
+          <div class="header-nav__theme-menu-container">
+            <button
+              class="header-nav__theme-icon-container"
+              id="headerNavThemeIconContainer"
+            >
+              <span class="header-nav__theme-icon">🌚</span>
+              <span class="header-nav__theme-icon">🌞</span>
+            </button>
+            <div class="header-nav__menu-icon-label" id="headerNavMenuIcon">
+              <i class="bi bi-list"></i>
+            </div>
+            <ul class="header-nav__menu-link-list">
+              <li class="header-nav__menu-link-item">
+                <a href="#profile" class="header-nav__menu-link">Perfil</a>
+              </li>
+              <li class="header-nav__menu-link-item">
+                <a href="#experiences" class="header-nav__menu-link"
+                  >Experiencia</a
+                >
+              </li>
+              <li class="header-nav__menu-link-item">
+                <a href="#projects" class="header-nav__menu-link">Proyectos</a>
+              </li>
+              <li class="header-nav__menu-link-item">
+                <a href="#" class="header-nav__menu-link">C++</a>
+              </li>
+              <li class="header-nav__menu-link-item">
+                <a href="#" class="header-nav__menu-link">Php</a>
+              </li>
+              <li class="header-nav__menu-link-item">
+                <a
+                  href="https://www.linkedin.com/in/javier-alberto-ramos-chang-737411171/"
+                  class="header-nav__menu-link header-nav__menu-link--active"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Javier</a
+                >
+              </li>
+              <li
+                class="header-nav__menu-link-item header-nav__menu-link-item--close-absolute"
+                id="headerMenuCloseIcon"
+              >
+                <i class="bi bi-x-circle"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <article class="profile" id="profile">
+        <div class="profile__container">
+          <div class="profile__info">
+            <h2 class="profile__info-title"></h2>
+            <h1 class="profile__info-subtitle">
+            </h1>
+            <p class="profile__info-description">
+            </p>
+            <div class="profile__info-link-container">
+              <a
+                href=""
+                target="_blanc"
+                rel="noopener noreferrer"
+                class="profile__info-link"
+                ></a
+              >
+              <a
+                href="#projects"
+                class="profile__info-link profile__info-link--active"
+                ></a
+              >
+            </div>
+          </div>
+          <div class="profile__figure">
+            <figure class="profile__figure-image-container">
+              <img
+                src="./img/impfistslogo.png"
+                alt="Imperial Fist"
+                class="profile__figure-image"
+              />
+              <img
+                src=""
+                alt=""
+                class="profile__figure-tech-one"
+              />
+              <img
+                src=""
+                alt=""
+                class="profile__figure-tech-two"
+              />
+              <img
+                src=""
+                alt=""
+                class="profile__figure-tech-three"
+              />
+              <img
+                src=""
+                alt=""
+                class="profile__figure-tech-four"
+              />
+            </figure>
+          </div>
+        </div>
+      </article>
+
+      <section class="wave-separator wave-separator--r-180deg">
+        <figure class="wave-separator-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 170"
+            class="wave-separator__wave"
+          >
+            <path
+              fill-opacity="1"
+              d="M0,68L48,82.2C96,96,192,125,288,127.5C384,130,480,108,576,90.7C672,74,768,62,864,73.7C960,85,1056,119,1152,124.7C1248,130,1344,108,1440,87.8C1536,68,1632,51,1728,42.5C1824,34,1920,34,2016,42.5C2112,51,2208,68,2304,65.2C2400,62,2496,40,2592,36.8C2688,34,2784,51,2880,56.7C2976,62,3072,57,3168,68C3264,79,3360,108,3456,116.2C3552,125,3648,113,3744,104.8C3840,96,3936,91,4032,96.3C4128,102,4224,119,4320,113.3C4416,108,4512,79,4608,73.7C4704,68,4800,85,4896,87.8C4992,91,5088,79,5184,65.2C5280,51,5376,34,5472,36.8C5568,40,5664,62,5760,59.5C5856,57,5952,28,6048,31.2C6144,34,6240,68,6336,87.8C6432,108,6528,113,6624,104.8C6720,96,6816,74,6864,62.3L6912,51L6912,170L6864,170C6816,170,6720,170,6624,170C6528,170,6432,170,6336,170C6240,170,6144,170,6048,170C5952,170,5856,170,5760,170C5664,170,5568,170,5472,170C5376,170,5280,170,5184,170C5088,170,4992,170,4896,170C4800,170,4704,170,4608,170C4512,170,4416,170,4320,170C4224,170,4128,170,4032,170C3936,170,3840,170,3744,170C3648,170,3552,170,3456,170C3360,170,3264,170,3168,170C3072,170,2976,170,2880,170C2784,170,2688,170,2592,170C2496,170,2400,170,2304,170C2208,170,2112,170,2016,170C1920,170,1824,170,1728,170C1632,170,1536,170,1440,170C1344,170,1248,170,1152,170C1056,170,960,170,864,170C768,170,672,170,576,170C480,170,384,170,288,170C192,170,96,170,48,170L0,170Z"
+            ></path>
+          </svg>
+        </figure>
+      </section>
+
+      <section class="experiences" id="experiences">
+        <div class="experiences__container">
+          <h2 class="experiences__title">👨‍💻 Experiencia 👨‍💻</h2>
+          <ul class="experiences__experiences-list">
+            <li class="expereiences__experiences-item">
+              <h4 class="expereiences__item-date">ene. 2013, mar. 2013</h4>
+              <h3 class="expereiences__item-company">Matriservice S.A.</h3>
+              <h4 class="expereiences__item-role">Practicante</h4>
+              <ul class="expereiences__item-activities">
+                <li class="expereiences__item-activity">
+                  Modelamiento y los planos de los componentes mecánicos
+                </li>
+                <li class="expereiences__item-activity">AutoCad, Solidworks</li>
+              </ul>
+            </li>
+            <li class="expereiences__experiences-item">
+              <h4 class="expereiences__item-date">dic. 2018, mar. 2019</h4>
+              <h3 class="expereiences__item-company">
+                Embotelladora Wong S.A.C.
+              </h3>
+              <h4 class="expereiences__item-role">Practicante</h4>
+              <ul class="expereiences__item-activities">
+                <li class="expereiences__item-activity">
+                  Manejo de equipos de procesamiento de agua.
+                </li>
+                <li class="expereiences__item-activity">
+                  Medicion de parametros en agua embotellada.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="wave-separator wave-separator--r-180deg">
+        <figure class="wave-separator-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 170"
+            class="wave-separator__wave"
+          >
+            <path
+              fill-opacity="1"
+              d="M0,68L48,82.2C96,96,192,125,288,127.5C384,130,480,108,576,90.7C672,74,768,62,864,73.7C960,85,1056,119,1152,124.7C1248,130,1344,108,1440,87.8C1536,68,1632,51,1728,42.5C1824,34,1920,34,2016,42.5C2112,51,2208,68,2304,65.2C2400,62,2496,40,2592,36.8C2688,34,2784,51,2880,56.7C2976,62,3072,57,3168,68C3264,79,3360,108,3456,116.2C3552,125,3648,113,3744,104.8C3840,96,3936,91,4032,96.3C4128,102,4224,119,4320,113.3C4416,108,4512,79,4608,73.7C4704,68,4800,85,4896,87.8C4992,91,5088,79,5184,65.2C5280,51,5376,34,5472,36.8C5568,40,5664,62,5760,59.5C5856,57,5952,28,6048,31.2C6144,34,6240,68,6336,87.8C6432,108,6528,113,6624,104.8C6720,96,6816,74,6864,62.3L6912,51L6912,170L6864,170C6816,170,6720,170,6624,170C6528,170,6432,170,6336,170C6240,170,6144,170,6048,170C5952,170,5856,170,5760,170C5664,170,5568,170,5472,170C5376,170,5280,170,5184,170C5088,170,4992,170,4896,170C4800,170,4704,170,4608,170C4512,170,4416,170,4320,170C4224,170,4128,170,4032,170C3936,170,3840,170,3744,170C3648,170,3552,170,3456,170C3360,170,3264,170,3168,170C3072,170,2976,170,2880,170C2784,170,2688,170,2592,170C2496,170,2400,170,2304,170C2208,170,2112,170,2016,170C1920,170,1824,170,1728,170C1632,170,1536,170,1440,170C1344,170,1248,170,1152,170C1056,170,960,170,864,170C768,170,672,170,576,170C480,170,384,170,288,170C192,170,96,170,48,170L0,170Z"
+            ></path>
+          </svg>
+        </figure>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="projects__container">
+          <h2 class="projects__title">💻 Proyectos 💻</h2>
+          <ul class="projects__projects-list">
+            <li class="projects__projects-item">
+              <figure class="projects__item-image-container">
+                <img
+                  src="https://i.postimg.cc/xCPv7Cjz/sin-e-spoiler-r.png"
+                  alt="Sin E Spoiler R"
+                  class="projects__item-image"
+                />
+              </figure>
+              <div class="projects__item-data">
+                <h2 class="projects__item-data-title">Sin E Spoiler R</h2>
+                <h3 class="projects__item-data-core-technology">Core: React</h3>
+                <h4 class="projects__item-data-technologies">
+                  Tecnologias: React, HTML, CSS, JavaScript
+                </h4>
+                <p class="projects__item-data-about">
+                  Aplicacion de cine que te permite ver las mejores peliculas
+                  del momento, su detalloe y cambiar el tema
+                </p>
+              </div>
+              <div class="projects__item-buttom-container">
+                <a
+                  href="#"
+                  class="projects__item-buttom projects__item-buttom--bg-gold"
+                  >Demo</a
+                >
+                <a href="#" class="projects__item-buttom">Codigo</a>
+              </div>
+            </li>
+            <li class="projects__projects-item">
+              <figure class="projects__item-image-container">
+                <img
+                  src="https://i.postimg.cc/xCPv7Cjz/sin-e-spoiler-r.png"
+                  alt="Sin E Spoiler R"
+                  class="projects__item-image"
+                />
+              </figure>
+              <div class="projects__item-data">
+                <h2 class="projects__item-data-title">Sin E Spoiler R</h2>
+                <h3 class="projects__item-data-core-technology">Core: React</h3>
+                <h4 class="projects__item-data-technologies">
+                  Tecnologias: React, HTML, CSS, JavaScript
+                </h4>
+                <p class="projects__item-data-about">
+                  Aplicacion de cine que te permite ver las mejores peliculas
+                  del momento, su detalloe y cambiar el tema
+                </p>
+              </div>
+              <div class="projects__item-buttom-container">
+                <a
+                  href="#"
+                  class="projects__item-buttom projects__item-buttom--bg-gold"
+                  >Demo</a
+                >
+                <a href="#" class="projects__item-buttom">Codigo</a>
+              </div>
+            </li>
+            <li class="projects__projects-item">
+              <figure class="projects__item-image-container">
+                <img
+                  src="https://i.postimg.cc/xCPv7Cjz/sin-e-spoiler-r.png"
+                  alt="Sin E Spoiler R"
+                  class="projects__item-image"
+                />
+              </figure>
+              <div class="projects__item-data">
+                <h2 class="projects__item-data-title">Sin E Spoiler R</h2>
+                <h3 class="projects__item-data-core-technology">Core: React</h3>
+                <h4 class="projects__item-data-technologies">
+                  Tecnologias: React, HTML, CSS, JavaScript
+                </h4>
+                <p class="projects__item-data-about">
+                  Aplicacion de cine que te permite ver las mejores peliculas
+                  del momento, su detalloe y cambiar el tema
+                </p>
+              </div>
+              <div class="projects__item-buttom-container">
+                <a
+                  href="#"
+                  class="projects__item-buttom projects__item-buttom--bg-gold"
+                  >Demo</a
+                >
+                <a href="#" class="projects__item-buttom">Codigo</a>
+              </div>
+            </li>
+            <li class="projects__projects-item">
+              <figure class="projects__item-image-container">
+                <img
+                  src="https://i.postimg.cc/xCPv7Cjz/sin-e-spoiler-r.png"
+                  alt="Sin E Spoiler R"
+                  class="projects__item-image"
+                />
+              </figure>
+              <div class="projects__item-data">
+                <h2 class="projects__item-data-title">Sin E Spoiler R</h2>
+                <h3 class="projects__item-data-core-technology">Core: React</h3>
+                <h4 class="projects__item-data-technologies">
+                  Tecnologias: React, HTML, CSS, JavaScript
+                </h4>
+                <p class="projects__item-data-about">
+                  Aplicacion de cine que te permite ver las mejores peliculas
+                  del momento, su detalloe y cambiar el tema
+                </p>
+              </div>
+              <div class="projects__item-buttom-container">
+                <a
+                  href="#"
+                  class="projects__item-buttom projects__item-buttom--bg-gold"
+                  >Demo</a
+                >
+                <a href="#" class="projects__item-buttom">Codigo</a>
+              </div>
+            </li>
+            <li class="projects__projects-item">
+              <figure class="projects__item-image-container">
+                <img
+                  src="https://i.postimg.cc/xCPv7Cjz/sin-e-spoiler-r.png"
+                  alt="Sin E Spoiler R"
+                  class="projects__item-image"
+                />
+              </figure>
+              <div class="projects__item-data">
+                <h2 class="projects__item-data-title">Sin E Spoiler R</h2>
+                <h3 class="projects__item-data-core-technology">Core: React</h3>
+                <h4 class="projects__item-data-technologies">
+                  Tecnologias: React, HTML, CSS, JavaScript
+                </h4>
+                <p class="projects__item-data-about">
+                  Aplicacion de cine que te permite ver las mejores peliculas
+                  del momento, su detalloe y cambiar el tema
+                </p>
+              </div>
+              <div class="projects__item-buttom-container">
+                <a
+                  href="#"
+                  class="projects__item-buttom projects__item-buttom--bg-gold"
+                  >Demo</a
+                >
+                <a href="#" class="projects__item-buttom">Codigo</a>
+              </div>
+            </li>
+            <li class="projects__projects-item">
+              <figure class="projects__item-image-container">
+                <img
+                  src="https://i.postimg.cc/xCPv7Cjz/sin-e-spoiler-r.png"
+                  alt="Sin E Spoiler R"
+                  class="projects__item-image"
+                />
+              </figure>
+              <div class="projects__item-data">
+                <h2 class="projects__item-data-title">Sin E Spoiler R</h2>
+                <h3 class="projects__item-data-core-technology">Core: React</h3>
+                <h4 class="projects__item-data-technologies">
+                  Tecnologias: React, HTML, CSS, JavaScript
+                </h4>
+                <p class="projects__item-data-about">
+                  Aplicacion de cine que te permite ver las mejores peliculas
+                  del momento, su detalloe y cambiar el tema
+                </p>
+              </div>
+              <div class="projects__item-buttom-container">
+                <a
+                  href="#"
+                  class="projects__item-buttom projects__item-buttom--bg-gold"
+                  >Demo</a
+                >
+                <a href="#" class="projects__item-buttom">Codigo</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="wave-separator">
+        <figure class="wave-separator-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 170"
+            class="wave-separator__wave"
+          >
+            <path
+              fill-opacity="1"
+              d="M0,68L48,82.2C96,96,192,125,288,127.5C384,130,480,108,576,90.7C672,74,768,62,864,73.7C960,85,1056,119,1152,124.7C1248,130,1344,108,1440,87.8C1536,68,1632,51,1728,42.5C1824,34,1920,34,2016,42.5C2112,51,2208,68,2304,65.2C2400,62,2496,40,2592,36.8C2688,34,2784,51,2880,56.7C2976,62,3072,57,3168,68C3264,79,3360,108,3456,116.2C3552,125,3648,113,3744,104.8C3840,96,3936,91,4032,96.3C4128,102,4224,119,4320,113.3C4416,108,4512,79,4608,73.7C4704,68,4800,85,4896,87.8C4992,91,5088,79,5184,65.2C5280,51,5376,34,5472,36.8C5568,40,5664,62,5760,59.5C5856,57,5952,28,6048,31.2C6144,34,6240,68,6336,87.8C6432,108,6528,113,6624,104.8C6720,96,6816,74,6864,62.3L6912,51L6912,170L6864,170C6816,170,6720,170,6624,170C6528,170,6432,170,6336,170C6240,170,6144,170,6048,170C5952,170,5856,170,5760,170C5664,170,5568,170,5472,170C5376,170,5280,170,5184,170C5088,170,4992,170,4896,170C4800,170,4704,170,4608,170C4512,170,4416,170,4320,170C4224,170,4128,170,4032,170C3936,170,3840,170,3744,170C3648,170,3552,170,3456,170C3360,170,3264,170,3168,170C3072,170,2976,170,2880,170C2784,170,2688,170,2592,170C2496,170,2400,170,2304,170C2208,170,2112,170,2016,170C1920,170,1824,170,1728,170C1632,170,1536,170,1440,170C1344,170,1248,170,1152,170C1056,170,960,170,864,170C768,170,672,170,576,170C480,170,384,170,288,170C192,170,96,170,48,170L0,170Z"
+            ></path>
+          </svg>
+        </figure>
+      </section>
+
+      <style>
+        .gallery {
+          background-color: var(--secondary-theme-color);
+          padding: var(--padding-section);
+        }
+
+        .gallery__container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 2rem;
+          max-width: var(--max-width-container);
+          margin: auto;
+          padding: var(--padding-container);
+        }
+
+        .gallery__title {
+          font-size: 2rem;
+          text-shadow: 0 0 0.25rem var(--primary-highlight);
+          margin: 0;
+        }
+
+        .gallery__projects {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          grid-template-rows: 1fr 1fr 1fr;
+          gap: 0;
+          grid-template-areas:
+            "uno uno tres tres tres"
+            "uno uno dos dos cuatro"
+            "cinco cinco dos dos seis";
+          width: 100%;
+          margin: 0;
+        }
+
+        .gallery__project {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .gallery__project--one {
+          grid-area: uno;
+        }
+
+        .gallery__project--two {
+          grid-area: dos;
+        }
+
+        .gallery__project--three {
+          grid-area: tres;
+        }
+
+        .gallery__project--four {
+          grid-area: cuatro;
+        }
+
+        .gallery__project--five {
+          grid-area: cinco;
+        }
+
+        .gallery__project--six {
+          grid-area: seis;
+        }
+      </style>
+
+      <section class="gallery" id="gallery">
+        <div class="gallery__container">
+          <h2 class="gallery__title">🖼 Gallería 🖼</h2>
+          <figure class="gallery__projects">
+            <img
+              src="https://i.postimg.cc/SQWSWWKp/task-manager-context-react.png"
+              alt="task-manager-context-react"
+              class="gallery__project gallery__project--one"
+            />
+            <img
+              src="https://i.postimg.cc/yYRyCSF4/lp-moonlight-parallax-js.png"
+              alt="lp-moonlight-parallax"
+              class="gallery__project gallery__project--two"
+            />
+            <img
+              src="https://i.postimg.cc/3JhYs1xQ/veterinaria-jp-r.png"
+              alt="veterinaria-jp-r"
+              class="gallery__project gallery__project--three"
+            />
+            <img
+              src="https://i.postimg.cc/8C7Gr4hq/cryptocurrency-quote-api-jp-r.png"
+              alt="cryptocurrency-quote-api-jp-r"
+              class="gallery__project gallery__project--four"
+            />
+            <img
+              src="https://i.postimg.cc/j5CXkn6d/landing-page-register-event-c.png"
+              alt="https://i.postimg.cc/j5CXkn6d/landing-page-register-event-c.png"
+              class="gallery__project gallery__project--five"
+            />
+            <img
+              src="https://i.postimg.cc/pybf7v6Y/buscador-de-imagenes-api-jp-r.png"
+              alt="buscador-de-imagenes-api-jp-r"
+              class="gallery__project gallery__project--six"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="skills__container">
+          <h2 class="skills__title">📚 Habilidades 📚</h2>
+          <ul class="skills__skills-list" id="skillsSkillsList">
+            <li class="skills__skills-item">React</li>
+            <li class="skills__skills-item">JavaScript</li>
+            <li class="skills__skills-item">CSS</li>
+            <li class="skills__skills-item">HTML</li>
+            <li class="skills__skills-item">TypeScript</li>
+            <li class="skills__skills-item">Sass</li>
+            <li class="skills__skills-item">Bootstrap</li>
+            <li class="skills__skills-item">Tailwind</li>
+            <li class="skills__skills-item">RWD</li>
+            <li class="skills__skills-item">BEM</li>
+            <li class="skills__skills-item">UX/UI</li>
+            <li class="skills__skills-item">SEO</li>
+            <li class="skills__skills-item">Node.js</li>
+            <li class="skills__skills-item">Express.js</li>
+            <li class="skills__skills-item">API</li>
+            <li class="skills__skills-item">MySQL</li>
+            <li class="skills__skills-item">MongoDB</li>
+            <li class="skills__skills-item">Moongose</li>
+            <li class="skills__skills-item">git</li>
+            <li class="skills__skills-item">Calidad de software</li>
+            <li class="skills__skills-item">Scrum</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="wave-separator">
+        <figure class="wave-separator-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 170"
+            class="wave-separator__wave"
+          >
+            <path
+              fill-opacity="1"
+              d="M0,68L48,82.2C96,96,192,125,288,127.5C384,130,480,108,576,90.7C672,74,768,62,864,73.7C960,85,1056,119,1152,124.7C1248,130,1344,108,1440,87.8C1536,68,1632,51,1728,42.5C1824,34,1920,34,2016,42.5C2112,51,2208,68,2304,65.2C2400,62,2496,40,2592,36.8C2688,34,2784,51,2880,56.7C2976,62,3072,57,3168,68C3264,79,3360,108,3456,116.2C3552,125,3648,113,3744,104.8C3840,96,3936,91,4032,96.3C4128,102,4224,119,4320,113.3C4416,108,4512,79,4608,73.7C4704,68,4800,85,4896,87.8C4992,91,5088,79,5184,65.2C5280,51,5376,34,5472,36.8C5568,40,5664,62,5760,59.5C5856,57,5952,28,6048,31.2C6144,34,6240,68,6336,87.8C6432,108,6528,113,6624,104.8C6720,96,6816,74,6864,62.3L6912,51L6912,170L6864,170C6816,170,6720,170,6624,170C6528,170,6432,170,6336,170C6240,170,6144,170,6048,170C5952,170,5856,170,5760,170C5664,170,5568,170,5472,170C5376,170,5280,170,5184,170C5088,170,4992,170,4896,170C4800,170,4704,170,4608,170C4512,170,4416,170,4320,170C4224,170,4128,170,4032,170C3936,170,3840,170,3744,170C3648,170,3552,170,3456,170C3360,170,3264,170,3168,170C3072,170,2976,170,2880,170C2784,170,2688,170,2592,170C2496,170,2400,170,2304,170C2208,170,2112,170,2016,170C1920,170,1824,170,1728,170C1632,170,1536,170,1440,170C1344,170,1248,170,1152,170C1056,170,960,170,864,170C768,170,672,170,576,170C480,170,384,170,288,170C192,170,96,170,48,170L0,170Z"
+            ></path>
+          </svg>
+        </figure>
+      </section>
+
+      <section class="contact">
+        <div class="contact__container">
+          <h2 class="contact__title">Contacto</h2>
+          <form action="" class="contact__form">
+            <div class="contact__form-inputs">
+              <input
+                type="email"
+                placeholder="Email"
+                class="contact__form-input"
+                required
+              />
+              <button class="contact__form-button">Contactar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <nav class="footer-nav">
+        <div class="footer-nav-container">
+          <ul class="footer-nav__link-list"></ul>
+          <h2 class="footer-nav__credits"></h2>
+        </div>
+      </nav>
+    </footer>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
